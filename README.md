@@ -1,8 +1,12 @@
-# React + Vite
+# Web P2P Chat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based peer-to-peer chat application built using the commonware-p2p library, providing secure P2P communication through a web interface.
 
-Currently, two official plugins are available:
+## Local Development
+```bash
+# Install dependencies
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Run development server and WebSocket relay
+npm run start
+```
